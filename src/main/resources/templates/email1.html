@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Greeting</title>
+</head>
+<body>
+<div>
+    <h1>Greeting Card</h1>
+    <p>Dear <span th:text="${receiver}"></span>,</p>
+    <p>From <span th:text="${sender}"></span>,</p>
+    <p><span th:text="${greeting}"></span></p>
+</div>
+</body>
+</html>
