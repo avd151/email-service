@@ -51,4 +51,9 @@ public class EmailController {
         System.out.println(notificationRequest.emailNotification);
         return content;
     }
+
+    @PostMapping("/email")
+    public String sendEmail(){
+        return null;
+    }
 }

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Internationalization</title>
+</head>
+<body>
+<div>
+    <!-- Concatenating two variables -->
+    <p th:text="[[#{greeting} + ' ' + ${name}]]"></p>
+
+    <!-- Using the + operator -->
+<!--    <p th:text="[[${variable1}]] + ' ' + [[${variable2}]]"></p>-->
+</div>
+</body>
+</html>
