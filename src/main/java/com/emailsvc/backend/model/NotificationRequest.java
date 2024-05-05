@@ -16,4 +16,5 @@ public class NotificationRequest {
     public String channel;
 
     public EmailNotification emailNotification;
+    public String lang;
 }
